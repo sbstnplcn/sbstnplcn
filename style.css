@@ -1,0 +1,89 @@
+h1 {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+hr {
+    width: 35%;
+    float: right;
+}
+
+a {
+    color: white;
+}
+
+#leftpanel {
+    height: 100vh;
+    position: fixed;
+    /*overflow: scroll;*/
+    color: white;
+    font-weight: 100;
+}
+
+#leftpanel .row {
+    margin-top: 2em;
+}
+
+#leftpanel img {
+    max-width: 70%;
+    margin: auto;
+    display: block;
+    border: 5px solid #FFF;
+}
+
+#leftpanel p {
+    text-align: justify;
+}
+
+#rightpanel {
+    margin-top: 64px;
+}
+
+#rightpanel p {
+    padding: 0 1em;
+    text-align: justify;
+}
+
+#rightpanel h1 {
+    color: black;
+}
+
+#rightpanel footer.page-footer, #rightpanel .nav-wrapper {
+    margin: 0 -1.2vh;
+}
+
+#footer, #footer h1 {
+    color: white;
+    font-weight: 100;
+}
+
+.modal {
+    max-height: 80%;
+    width: 80%;
+}
+
+.chip {
+    height: 25px;
+    line-height: 25px;
+}
+
+i.medium {
+    font-size: 3rem;
+}
+
+.navbar-fixed {
+    position: fixed;
+    z-index: 0;
+}
+
+.nav-wrapper {
+    width: 75%;
+    right: -25%;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+nav .brand-logo {
+    left: 1em;
+}
