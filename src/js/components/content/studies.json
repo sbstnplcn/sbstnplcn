@@ -1,0 +1,37 @@
+[{
+    "title": "Wild Code School",
+    "status": "Apprenti Développeur Web JS Full-Stack (MEAN)",
+    "period": "Septembre 2016 - Aujourd'hui",
+    "city": "Bordeaux",
+    "contents": "Préparation titre d’Etat de Développeur logiciel. École  labellisée Grande Ecole du Numérique et est lauréate du Programme Investissements d’Avenir \"Culture de l'entrepreneuriat et de l'innovation\"",
+    "keywords": {
+        "chips": ["#Mean-Stack", "#JS", "#AngularJS", "#Node.js", "#Express.js", "#MongoDB"]
+    }
+}, {
+    "title": "FREECODECAMP / CODECADEMY",
+    "status": "MOOC Apprenti Développeur Web",
+    "period": "DEPUIS JANVIER 2016",
+    "city": "Toulouse",
+    "contents": "HTML5 / CSS3 / Javascript / Git / jQuery / Bootstrap / Responsive Design / SQL / Sass / PHP ",
+    "keywords": {
+        "chips": ["#HTML5", "#CSS3", "#PHP", "#CodeIgniter", "#WORDPRESS", "#Product Owner", "#Wireframing", "#R&D"]
+    }
+}, {
+    "title": "LUTHERIE / VENTE",
+    "status": "Formation AFPR au Magasin Valley & Blues à Toulouse",
+    "period": "Décembre 2009 - Avril 2010",
+    "city": "Toulouse",
+    "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
+    "keywords": {
+        "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+    }
+}, {
+    "title": "LLCER ANGLAIS",
+    "status": "Licence L1 LLCER Anglais à l’université Jean Jaures (ex-Mirail)",
+    "period": "Septembre 2007 - Mai 2008",
+    "city": "Toulouse",
+    "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
+    "keywords": {
+        "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+    }
+}]
