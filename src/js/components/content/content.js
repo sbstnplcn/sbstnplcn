@@ -4,12 +4,10 @@
         controller: ['$http', function($http) {
             angular.extend(this, {
                 $onInit() {
-                    $http.get('/src/js/components/content/exp-pro.json').then((res) => {
-                        this.exps = res.data
-                    })
-                    $http.get('/src/js/components/content/studies.json').then((res) => {
-                        this.studies = res.data
-                    })
+                  $http.get('/src/js/components/content/infos.json').then((res) => {
+                      this.infos = res.data
+                  })
+                  
                     this.expslimit = 3
                     this.loadMoreExps = () => {
                         this.expslimit += 1

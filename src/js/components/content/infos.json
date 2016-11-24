@@ -1,0 +1,102 @@
+[{
+    "exps": [{
+        "title": "Wild Code School",
+        "status": "Apprenti Développeur Web JS Full-Stack (MEAN)",
+        "period": "Septembre 2016 - Aujourd'hui",
+        "city": "Bordeaux",
+        "contents": {
+            "skills": [
+                "- Formation diplomante et professionnalisante sur 5 mois, orientée sur la pratique.",
+                "- Enseignement MEAN Stack: MongoDB, Express.js, AngularJS(1.5), Node.js.",
+                "- Réalisation de projets professionnels pour des clients.",
+                "- Lauréat du Hackathon organisé par le Salon E-Tourisme de Pau# ET12:",
+                "Projet FreakyWay, en qualité de chef de projet, développeur web AngularJS et pitch."
+            ]
+        },
+        "keywords": {
+            "chips": ["#Mean-Stack", "#JS", "#AngularJS", "#Node.js", "#Express.js", "#MongoDB"]
+        }
+    }, {
+        "title": "V-Media",
+        "status": "Responsable Édition Web",
+        "period": "Janvier 2016 - Septembre 2016",
+        "city": "Toulouse",
+        "contents": {
+            "skills": [
+                "- Création de sites internets sur technologies HTML, PHP et WORDPRESS.",
+                "- Chef Produit site de divertissements (top, buzz, test). Gestion équipe de développeurs.",
+                "- Product Owner pour la Start-Up Ibul à la création de la plateforme AdsOutLoud de gestion et création de campagnes de pub pour les réseaux Native Advertising.",
+                "Réalisation cahier des charges, mise en place des Sprint avec l’équipe technique, Wireframing, R&D."
+            ]
+        },
+        "keywords": {
+            "chips": ["#HTML5", "#CSS3", "#PHP", "#CodeIgniter", "#WORDPRESS", "#Product Owner", "#Wireframing", "#R&D"]
+        }
+    }, {
+        "title": "V-Media",
+        "status": "Traffic Manager",
+        "period": "Juillet 2014 - Décembre 2015",
+        "city": "Toulouse",
+        "contents": {
+            "skills": [
+                "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain.",
+                "Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois."
+            ]
+        },
+        "keywords": {
+            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+        }
+    }, {
+        "title": "Cash Express",
+        "status": "Traffic Manager",
+        "period": "Juillet 2014 - Décembre 2015",
+        "city": "Toulouse",
+        "contents": {
+            "skills": [
+                "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain.",
+                "Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois."
+            ]
+        },
+        "keywords": {
+            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+        }
+    }]
+}, {
+    "studies": [{
+        "title": "Wild Code School",
+        "status": "Apprenti Développeur Web JS Full-Stack (MEAN)",
+        "period": "Septembre 2016 - Aujourd'hui",
+        "city": "Bordeaux",
+        "contents": "Préparation titre d’Etat de Développeur logiciel. École  labellisée Grande Ecole du Numérique et est lauréate du Programme Investissements d’Avenir \"Culture de l'entrepreneuriat et de l'innovation\"",
+        "keywords": {
+            "chips": ["#Mean-Stack", "#JS", "#AngularJS", "#Node.js", "#Express.js", "#MongoDB"]
+        }
+    }, {
+        "title": "FREECODECAMP / CODECADEMY",
+        "status": "MOOC Apprenti Développeur Web",
+        "period": "DEPUIS JANVIER 2016",
+        "city": "Toulouse",
+        "contents": "HTML5 / CSS3 / Javascript / Git / jQuery / Bootstrap / Responsive Design / SQL / Sass / PHP ",
+        "keywords": {
+            "chips": ["#HTML5", "#CSS3", "#PHP", "#CodeIgniter", "#WORDPRESS", "#Product Owner", "#Wireframing", "#R&D"]
+        }
+    }, {
+        "title": "LUTHERIE / VENTE",
+        "status": "Formation AFPR au Magasin Valley & Blues à Toulouse",
+        "period": "Décembre 2009 - Avril 2010",
+        "city": "Toulouse",
+        "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
+        "keywords": {
+            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+        }
+    }, {
+        "title": "LLCER ANGLAIS",
+        "status": "Licence L1 LLCER Anglais à l’université Jean Jaures (ex-Mirail)",
+        "period": "Septembre 2007 - Mai 2008",
+        "city": "Toulouse",
+        "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
+        "keywords": {
+            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+        }
+    }]
+}]
