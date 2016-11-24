@@ -87,7 +87,7 @@
         "city": "Toulouse",
         "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
         "keywords": {
-            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+            "chips": ["#Guitare"]
         }
     }, {
         "title": "LLCER ANGLAIS",
@@ -99,4 +99,6 @@
             "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
         }
     }]
+}, {
+    "chips": ["#JS", "#Mean-Stack", "#AngularJS", "#Express.js", "#Node.js", "#MongoDB", "#HTML5", "#CSS3", "#PHP", "#Advertising", "#Native", "#WORDPRESS", "#Scrum", "#R&D", "#Materialize", "#Bootstrap"]
 }]

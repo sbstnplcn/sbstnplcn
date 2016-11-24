@@ -4,6 +4,9 @@
         controller: ['$http', function($http) {
             angular.extend(this, {
                 $onInit() {
+                    $http.get('/src/js/infos.json').then((res) => {
+                        this.infos = res.data
+                    })
 
                 }
             })
