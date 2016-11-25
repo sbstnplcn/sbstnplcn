@@ -8,6 +8,10 @@
                         this.infos = res.data
                     })
 
+                    this.showSidebar = true
+                    this.toggleSidebar = () => {
+                        this.showSidebar ? this.showSidebar = false : this.showSidebar = true
+                    }
                 }
             })
         }]

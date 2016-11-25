@@ -1,6 +1,7 @@
 <!-- Left Panel -->
 <section>
-    <div class="row">
+    <i class="material-icons medium close hide-on-med-and-up" ng-click="$ctrl.toggleSidebar()">menu</i>
+    <div class="row" style="display:{{$ctrl.showSidebar ? 'block' : 'none' }};">
         <div class="col s3 blue-grey darken-4" id="leftpanel">
             <div class="row">
                 <img src="src/img/avatar.jpg" alt="" class="circle responsive-img">
@@ -9,16 +10,16 @@
                 </h1>
                 <!-- <a class="waves-effect waves-light btn col s12" href="#LM">Ma Motivation</a> -->
             </div>
-                <div ng-repeat="info in $ctrl.infos">
-                    <span class="chip" ng-repeat="chip in info.chips | limitTo : 10">
-                            {{chip}}
-                    </span>
-                </div>
+            <div ng-repeat="info in $ctrl.infos">
+                <span class="chip" ng-repeat="chip in info.chips | limitTo : 10">
+                    {{chip}}
+                </span>
+            </div>
             <div class="row">
                 <h1>
                     <i class="small material-icons">perm_identity</i>
                     <span class="title">Contact</span>
-                    <hr>
+                    <hr class="hide-on-med-and-down">
                 </h1>
                 <ul>
                     <li>
@@ -39,11 +40,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="row">
+            <div class="row hide-on-small-and-down">
                 <h1>
                     <i class="small material-icons">theaters</i>
                     <span class="title">Hobbies</span>
-                    <hr></h1>
+                    <hr class="hide-on-med-and-down">
+                </h1>
                 <ul>
                     <li>
                         <p>
