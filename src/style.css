@@ -34,12 +34,6 @@ i.medium {
     z-index: 2;
 }
 
-@media (max-width: 993px) {
-    #leftpanel {
-        min-width: 320px;
-    }
-}
-
 #leftpanel .row {
     margin-top: 2em;
 }
@@ -90,6 +84,27 @@ i.medium {
     }
 }
 
+@media (max-width: 993px) {
+    #leftpanel {
+        min-width: 320px;
+    }
+    .togglehide {
+        display: block;
+    }
+    .toggleshow {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .togglehide {
+        display: none;
+    }
+    .toggleshow {
+        display: block;
+    }
+}
+
 .modal {
     max-height: 80%;
     width: 80%;
@@ -129,12 +144,4 @@ i.medium {
     color: white;
     top: 1%;
     left: 1%;
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: block;
 }
