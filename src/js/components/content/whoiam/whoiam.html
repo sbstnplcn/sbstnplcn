@@ -1,0 +1,23 @@
+<!--WhoIAm -->
+<div class="row" id="wia">
+    <h1>
+        <i class="small material-icons">work</i>
+        <span class="title">Me Connaitre</span>
+        <hr class="hide-on-med-and-down">
+    </h1>
+    <div class="row">
+        <div class="col s12">
+            <div class="card-panel white">
+                <p>
+                    <span ng-bind-html="$ctrl.manifesto | limitTo: $ctrl.manifestolimit"></span>
+                    <span ng-if="$ctrl.manifestolimit < $ctrl.manifesto.length">...</span>
+                </p>
+                <div class="center gradient" ng-if="$ctrl.manifestolimit < $ctrl.manifesto.length">
+                    <a class="waves-effect waves-light btn center blue-grey darken-3" ng-click="$ctrl.loadMoreManifesto()">
+                        <i class="material-icons right">library_add</i>Voir Plus
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

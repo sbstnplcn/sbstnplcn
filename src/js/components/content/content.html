@@ -3,143 +3,17 @@
     <div class="col offset-l3 l9 s12 blue-grey lighten-5" id="rightpanel">
 
         <!--WhoIAm -->
-        <div class="row" id="wia">
-            <h1>
-                <i class="small material-icons">work</i>
-                <span class="title">Me Connaitre</span>
-                <hr class="hide-on-med-and-down">
-            </h1>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card-panel white">
-                        <p>
-                            Ma première aventure dans une startup m'a permis de me challenger au quotidien.
-                            <br>
-                            Entré en tant que traffic manager junior n’ayant aucune connaissance dans le Web, j'ai en quelques mois ajouté le poste de chef de produit à mes compétences pour évoluer vers le poste de responsable édition web au sein de la société V-Media.
-                            <br>
-                            J’avais pour mission la gestion de la monétique, gérer les échanges avec l’équipe technique, l’élaboration du product backlog, des users stories, la mise en place des sprints et enfin gérer le lien avec l’équipe acquisition.
-                            <br>
-                            <br>
-                            Être en veille technologique, curieux et autodidacte a toujours été mon leitmotiv. Désireux de comprendre les rouages d’un site web, je me suis intéressé au développement. Souhaitant toujours relever de nouveau challenge, j’ai pu réaliser plusieurs
-                            sites sous Wordpress, et/ou HTML5, CSS3 et jQuery et le développement front de sites PHP sous CodeIgniter.
-                            <br>
-                            En partenariat avec la start-up Ibul, j’ai tenu le rôle de chef produit et développeur front HTML/CSS/jQuery dans la réalisation de la plateforme AdsOutLoud, une plateforme de gestion et de création de campagnes de pub pour les réseaux native
-                            advertising.
-                            <br>
-                            <br>
-                            Mon engagement dans une formation de Web Développeur à la Wild Code School orientée Javascript et la MEAN Stack (MongoDB, Express.js, AngularJS (v1.5) et Node.js) était donc une évidence.
-                            <br>
-                            Cette formation est focalisée sur la pratique, et son objectif est de nous apprendre à apprendre. Nous réalisons deux projets professionnels, un site vitrine avec un CMS-maison MEAN stack et une application mobile sous Ionic. Même si elle est centrée
-                            sur la MEAN stack, nous voyons aussi des notions dans d’autres frameworks comme React ou encore VueJS ou apprenons d’autres compétences techniques pratiques et/ou indispensables pour les développeurs d’aujourd’hui comme SASS, Git, Grunt, Brunch,
-                            Robomongo, Postman, etc.
-                            <br>
-                            <br>
-                            Vous aurez donc cerné que malgré ma jeune expérience dans le développement, mon parcours révèle mon adaptabilité, ma curiosité et ma soif d’en apprendre chaque jour encore plus.
-                            <br>
-                            <br>
-                            N'hésitez pas à me contacter si vous souhaitez en savoir plus !
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <whoiam></whoiam>
 
         <!-- Experiences -->
-        <div class="row" id="xp">
-            <h1>
-                <i class="small material-icons">work</i>
-                <span class="title">Expériences Professionnelles</span>
-                <hr class="hide-on-med-and-down">
-            </h1>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card white" ng-repeat="exp in $ctrl.infos[0].exps | limitTo : $ctrl.expslimit">
-                        <div class="card-content">
-                            <span class="card-title">{{exp.title | uppercase}}</span>
-                            <span class="infos">/
-                                {{exp.period | uppercase}}
-                                /
-                                {{exp.city | uppercase}}</span>
-
-                            <p>
-                                <span ng-repeat="(key, chip) in exp.keywords.chips" class="chip">{{chip}}</span>
-                            </p>
-                            <p>
-                                <strong>{{exp.status}}</strong>
-                            </p>
-                            <ul>
-                                <li ng-repeat="(key, skill) in exp.contents.skills">{{skill}}</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMoreExps()" ng-if="$ctrl.expslimit < $ctrl.exps.length">
-                        <i class="material-icons right">library_add</i>Voir Plus</a>
-                </div>
-            </div>
-        </div>
+        <exp></exp>
 
         <!-- Studies -->
-        <div class="row" id="studies">
-            <h1>
-                <i class="small material-icons">mode_edit</i>
-                <span class="title">Études</span>
-                <hr class="hide-on-med-and-down">
-            </h1>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card white" ng-repeat="exp in $ctrl.infos[1].studies | limitTo : $ctrl.studieslimit">
-                        <div class="card-content">
-                            <span class="card-title">{{exp.title | uppercase}}</span>
-                            <span class="infos">/
-                                {{exp.period | uppercase}}
-                                /
-                                {{exp.city | uppercase}}</span>
-
-                            <p>
-                                <span ng-repeat="(key, chip) in exp.keywords.chips" class="chip">{{chip}}</span>
-                            </p>
-                            <p>
-                                <strong>{{exp.status}}</strong>
-                            </p>
-                            <ul>
-                                <li>{{exp.contents}}</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMoreStudies()" ng-if="$ctrl.studieslimit < $ctrl.studies.length">
-                        <i class="material-icons right">library_add</i>Voir Plus</a>
-                </div>
-            </div>
-        </div>
+        <studies></studies>
 
         <!-- Skills -->
-        <div class="row" id="skills">
-            <h1>
-                <i class="small material-icons">mode_edit</i>
-                <span class="title">Compétences</span>
-                <hr class="hide-on-med-and-down">
-            </h1>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card white">
-                        <div class="card-content">
-                            <span class="card-title"></span>
-                            <div class="row">
-                                <div class="col s12 l6" ng-repeat="skill in $ctrl.infos[3].skills">
-                                    <span>{{skill.title | uppercase}}</span><br>
-                                    <label>{{skill.subtitle}}</label>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: {{skill.percent}}%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMoreStudies()" ng-if="$ctrl.studieslimit < $ctrl.studies.length">
-                    <i class="material-icons right">library_add</i>Voir Plus</a>
-            </div>
-        </div>
+        <skills></skills>
+
     </div>
 </div>
 </div>

@@ -88,26 +88,15 @@ i.medium {
     #leftpanel {
         min-width: 320px;
     }
-    .togglehide {
-        display: block;
-    }
     .toggleshow {
         display: none;
     }
 }
 
 @media (min-width: 992px) {
-    .togglehide {
-        display: none;
-    }
     .toggleshow {
         display: block;
     }
-}
-
-.modal {
-    max-height: 80%;
-    width: 80%;
 }
 
 .chip {
@@ -144,4 +133,14 @@ i.medium {
     color: white;
     top: 1%;
     left: 1%;
+}
+
+.gradient {
+    background: linear-gradient(transparent, white);
+    padding-top: 20%;
+    margin-top: -20%;
+    position: relative;
+}
+
+
 }

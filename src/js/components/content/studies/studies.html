@@ -1,0 +1,32 @@
+<div class="row" id="studies">
+    <h1>
+        <i class="small material-icons">mode_edit</i>
+        <span class="title">Études</span>
+        <hr class="hide-on-med-and-down">
+    </h1>
+    <div class="row">
+        <div class="col s12">
+            <div class="card white" ng-repeat="exp in $ctrl.infos[1].studies | limitTo : $ctrl.studieslimit">
+                <div class="card-content">
+                    <span class="card-title">{{exp.title | uppercase}}</span>
+                    <span class="infos">/
+                        {{exp.period | uppercase}}
+                        /
+                        {{exp.city | uppercase}}</span>
+
+                    <p>
+                        <span ng-repeat="(key, chip) in exp.keywords.chips" class="chip">{{chip}}</span>
+                    </p>
+                    <p>
+                        <strong>{{exp.status}}</strong>
+                    </p>
+                    <ul>
+                        <li>{{exp.contents}}</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMoreStudies()" ng-if="$ctrl.studieslimit < $ctrl.studies.length">
+                <i class="material-icons right">library_add</i>Voir Plus</a>
+        </div>
+    </div>
+</div>
