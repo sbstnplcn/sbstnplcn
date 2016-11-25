@@ -6,6 +6,7 @@
                 $onInit() {
                     infosService.get().then((res) => {
                         this.infos = res.data
+                        this.exps = this.infos[0].exps
                     })
 
                     this.expslimit = 3

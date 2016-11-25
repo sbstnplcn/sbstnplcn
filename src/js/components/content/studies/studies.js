@@ -6,9 +6,10 @@
                 $onInit() {
                     infosService.get().then((res) => {
                         this.infos = res.data
+                        this.studies = this.infos[1].studies
                     })
 
-                    this.studieslimit = 3
+                    this.studieslimit = 2
                     this.loadMoreStudies = () => {
                         this.studieslimit += 1
                     }

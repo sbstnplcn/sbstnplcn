@@ -140,7 +140,8 @@ i.medium {
     padding-top: 20%;
     margin-top: -20%;
     position: relative;
+    z-index: 0;
 }
-
-
+.waves-effect:not(.close) {
+    z-index: 0;
 }

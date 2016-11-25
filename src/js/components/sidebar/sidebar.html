@@ -1,6 +1,9 @@
 <!-- Left Panel -->
 <section>
-    <i class="material-icons medium close hide-on-large-only" ng-click="$ctrl.toggleSidebar()">menu</i>
+  <a class="waves-effect waves-light close" ng-click="$ctrl.toggleSidebar()">
+      <i class="material-icons medium hide-on-large-only">menu</i>
+  </a>
+
     <div class="row {{$ctrl.showSidebar ? 'toggleshow' : '' }}">
         <div class="col s3 blue-grey darken-4" id="leftpanel">
             <div class="row">
