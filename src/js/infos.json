@@ -40,7 +40,7 @@
         "contents": {
             "skills": [
                 "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain.",
-                "Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois."
+                "Mise en place stratégie marketing. Gestion d’un budget jusqu'à 400k€ par mois."
             ]
         },
         "keywords": {
@@ -48,17 +48,18 @@
         }
     }, {
         "title": "Cash Express",
-        "status": "Traffic Manager",
-        "period": "Juillet 2014 - Décembre 2015",
+        "status": "Responsable Adjoint / Acheteur / Vendeur Produits d'Occasions",
+        "period": "Mars 2012 - Juillet 2014",
         "city": "Toulouse",
         "contents": {
             "skills": [
-                "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain.",
-                "Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois."
+                "- Acheteur produits d'occasions aux particuliers, négociation, test de produits.",
+                "- Vendeur conseil en surface de vente hi-tech, culture, gestion stock",
+                "- Préparations, réparations, maintenances, SAV iPhone, Smartphone, PC, Mac"
             ]
         },
         "keywords": {
-            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+            "chips": ["#Relation Clientèle", "#Acheteur", "#Vendeur", "#réparations", "#Hi-tech"]
         }
     }]
 }, {
@@ -85,18 +86,27 @@
         "status": "Formation AFPR au Magasin Valley & Blues à Toulouse",
         "period": "Décembre 2009 - Avril 2010",
         "city": "Toulouse",
-        "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
+        "contents": "Vente d'instruments de musique, réglages et réparations guitares, SAV",
         "keywords": {
-            "chips": ["#Guitare"]
+            "chips": ["#Guitare", "#Lutherie", "#Vente"]
         }
     }, {
         "title": "LLCER ANGLAIS",
         "status": "Licence L1 LLCER Anglais à l’université Jean Jaures (ex-Mirail)",
         "period": "Septembre 2007 - Mai 2008",
         "city": "Toulouse",
-        "contents": "- Création et gestion de campagnes de pub sur Facebook, Taboola et Outbrain. Mise en place stratégie marketing. Gestion d’un budget de 500k€ par mois.",
+        "contents": "Majeure Anglais, Mineure Lettres Modernes et Histoire de l'Art, Option Acoutique Musicale",
         "keywords": {
-            "chips": ["#Advertising", "#Facebook", "#Native", "#Outbrain", "#Taboola"]
+            "chips": ["#Anglais", "#Université"]
+        }
+    }, {
+        "title": "BACCALAURÉAT GÉNÉRAL",
+        "status": "Licence L1 LLCER Anglais à l’université Jean Jaures (ex-Mirail)",
+        "period": "Juillet 2007",
+        "city": "Toulouse",
+        "contents": "Série Scientifique option Sciences de l'Ingénieur spécialité Sciences Physiques",
+        "keywords": {
+            "chips": ["#Scientifique", "#Sciences de L'Ingénieur", "#Sciences Physique"]
         }
     }]
 }, {
