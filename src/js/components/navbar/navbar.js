@@ -1,7 +1,7 @@
 ((app) => {
     app.component('navbar', {
         templateUrl: 'src/js/components/navbar/navbar.html',
-        controller: ['$http', function($http) {
+        controller: [function() {
             angular.extend(this, {
                 $onInit() {
 
