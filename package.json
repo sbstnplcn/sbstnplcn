@@ -1,0 +1,21 @@
+{
+  "name": "sbstnplcn",
+  "version": "1.0.0",
+  "description": "Resume",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "dev": "brunch watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbstnplcn/sbstnplcn.git"
+  },
+  "author": "Sebastien Palacin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbstnplcn/sbstnplcn/issues"
+  },
+  "homepage": "https://github.com/sbstnplcn/sbstnplcn#readme"
+}

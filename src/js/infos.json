@@ -139,64 +139,64 @@
     }]
 }, {
     "portfolios": [{
-        "title": "My Project",
+        "title": "Project'Me",
         "context": "Wild Code School - Développeur - Hackathon 48h",
         "content": "Une plateforme pour mettre en avant les élèves et les projets réalisés au cours de la formation.",
         "techno": "MEAN-STACK",
-        "images": ["src/img/meproject1.jpg", "src/img/meproject2.jpg"]
+        "images": ["meproject1.jpg", "meproject2.jpg"]
     },{
         "title": "Allset",
-        "context": "Wild Code School - Développeur - Projet Professionnel",
+        "context": "Wild Code School - Développeur",
         "content": "Refonte d'un site internet avec une partie admin d'édition de texte.",
         "techno": "MEAN-STACK",
-        "images": ["src/img/allset1.jpg", "src/img/allset2.jpg", "src/img/allset3.jpg"]
+        "images": ["allset1.jpg", "allset2.jpg", "allset3.jpg"]
     },{
         "title": "Sharker",
-        "context": "Wild Code School - Développeur - Projet Professionnel",
+        "context": "Wild Code School - Développeur",
         "content": "Application smartphone gamifiant les rencontres.",
         "techno": "IONIC / MEAN-STACK",
-        "images": ["src/img/shark1.jpg", "src/img/shark2.jpg"]
+        "images": ["shark1.jpg", "shark2.jpg"]
     },{
         "title": "FreakyWay",
         "context": "Wild Code School - Développeur - Hackathon 24h",
         "content": "Proposer des lieux insolites via des itinéraires un peu partout en France.",
         "techno": "AngularJS",
-        "images": ["src/img/freakyway1.jpg", "src/img/freakyway2.jpg"]
+        "images": ["freakyway1.jpg", "freakyway2.jpg"]
     },{
         "title": "AdsOutLoud Website",
         "context": "V-Media - Développeur",
         "content": "Site présentant la Start-Up.",
         "techno": "HTML5 / CSS3 / PHP",
-        "images": ["src/img/aol1.jpg", "src/img/aol2.jpg"]
+        "images": ["aol1.jpg", "aol2.jpg"]
     },{
         "title": "AdsOutLoud Web-App",
-        "context": "V-Media - Développeur Front / Chef Produit",
+        "context": "V-Media - Chef Produit / Développeur Front",
         "content": "Web-App de création et optimisation de campagne publicitaire sur les réseaux Native Advertising",
         "techno": "HTML5 / CSS3 / PHP",
-        "images": ["src/img/betaaol1.jpg"]
+        "images": ["betaaol1.jpg"]
     },{
         "title": "Ibul",
         "context": "V-Media - Développeur",
         "content": "Site présentant la Start-Up.",
         "techno": "HTML5 / CSS3",
-        "images": ["src/img/ibul.jpg"]
+        "images": ["ibul.jpg"]
     },{
         "title": "Summit",
         "context": "V-Media - Développeur",
         "content": "Site présentant le fond d'investissement.",
         "techno": "HTML5 / CSS3",
-        "images": ["src/img/summit.jpg"]
+        "images": ["summit.jpg"]
     },{
         "title": "V-Media",
         "context": "V-Media - Développeur",
         "content": "Site présentant l'agence.",
         "techno": "WORDPRESS",
-        "images": ["src/img/vmedia1.jpg", "src/img/vmedia2.jpg", "src/img/vmedia3.jpg"]
+        "images": ["vmedia1.jpg", "vmedia2.jpg", "vmedia3.jpg"]
     },{
         "title": "Addicte",
         "context": "V-Media - Chef produit",
         "content": "Site d'articles thématique féminin.",
         "techno": "CodeIgniter",
-        "images": ["src/img/addicte1.jpg","src/img/addicte2.jpg"]
+        "images": ["addicte1.jpg","addicte2.jpg"]
     }]
 }]
