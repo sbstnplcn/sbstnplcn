@@ -6,24 +6,20 @@
         <hr class="hide-on-med-and-down">
     </h1>
     <div class="row">
-    <div class="col s12">
-        <div class="card white" ng-repeat="portfolio in $ctrl.infos[4].portfolios | limitTo : $ctrl.portfolioslimit">
+    <div class="col s12 m6" ng-repeat="portfolio in $ctrl.infos[4].portfolios | limitTo : $ctrl.portfolioslimit track by $index">
+        <div class="card white">
             <div class="card-content">
+                <div ng-repeat="image in portfolio.images | limitTo: 1 track by $index" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+                    <div ng-click="$ctrl.next(portfolio, $index)" class="imageview" style="background-image: url({{image}})">
+                </div>
+                </div>
                 <span class="card-title">{{portfolio.title | uppercase}}</span>
-                <span class="infos">/
-                    {{portfolio.period | uppercase}}
-                    /
-                    {{portfolio.city | uppercase}}</span>
-
-                <p>
-                    <span ng-repeat="(key, chip) in portfolio.keywords.chips" class="chip">{{chip}}</span>
-                </p>
-                <p>
-                    <strong>{{portfolio.status}}</strong>
-                </p>
-                <ul>
-                    <li>{{portfolio.contents}}</li>
-                </ul>
+                <label>
+                    / {{portfolio.techno | uppercase}} /
+                </label>
+                <br>
+                <p>{{portfolio.context}}</p>
+                <p class="portfolio-content">{{portfolio.content}}</p>
             </div>
         </div>
         <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMoreStudies()" ng-if="$ctrl.studieslimit < $ctrl.studies.length">
