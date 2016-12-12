@@ -1,4 +1,5 @@
 ((app) => {
+    'use strict'
     app.component('exp', {
         templateUrl: 'src/js/components/content/exp/exp.html',
         controller: ['infosService', function(infosService) {

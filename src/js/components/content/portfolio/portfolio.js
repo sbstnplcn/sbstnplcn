@@ -7,10 +7,16 @@
                 $onInit() {
                     infosService.get().then((res) => {
                         this.infos = res.data
+                        this.portfolios = this.infos[4].portfolios
                     })
 
                     this.next = (portfolio, idx) => {
                         idx < portfolio.images.length - 1 ? idx++ : idx = 0
+                    }
+
+                    this.portfoliolimit = 6
+                    this.loadMorePortfolio = () => {
+                        this.portfoliolimit += 2
                     }
                 }
             })

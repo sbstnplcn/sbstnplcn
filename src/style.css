@@ -78,6 +78,10 @@ i.medium {
     font-weight: 100;
 }
 
+#portfolio {
+    margin-bottom: 20px;
+}
+
 #wia p {
     text-align: justify;
 }

@@ -6,24 +6,25 @@
         <hr class="hide-on-med-and-down">
     </h1>
     <div class="row">
-    <div class="col s12 m6" ng-repeat="portfolio in $ctrl.infos[4].portfolios | limitTo : $ctrl.portfolioslimit">
-        <div class="card white">
-            <div class="card-content">
-                <div ng-repeat="image in portfolio.images | limitTo : 1 track by $index" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
-                    <div ng-click="$ctrl.next(portfolio, $index)" class="imageview" style="background-image: url(src/img/{{image}})">
+        <div class="col s12 m6" ng-repeat="portfolio in $ctrl.infos[4].portfolios | limitTo : $ctrl.portfoliolimit">
+            <div class="card white">
+                <div class="card-content">
+                    <div ng-repeat="image in portfolio.images | limitTo : 1 track by $index" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+                        <div ng-click="$ctrl.next(portfolio, $index)" class="imageview" style="background-image: url(src/img/{{image}})"></div>
+                    </div>
+                    <span class="card-title">{{portfolio.title | uppercase}}</span>
+                    <label>
+                        /
+                        {{portfolio.techno | uppercase}}
+                        /
+                    </label>
+                    <br>
+                    <p>{{portfolio.context}}</p>
+                    <p class="portfolio-content">{{portfolio.content}}</p>
                 </div>
-                </div>
-                <span class="card-title">{{portfolio.title | uppercase}}</span>
-                <label>
-                    / {{portfolio.techno | uppercase}} /
-                </label>
-                <br>
-                <p>{{portfolio.context}}</p>
-                <p class="portfolio-content">{{portfolio.content}}</p>
             </div>
         </div>
-        <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMoreStudies()" ng-if="$ctrl.studieslimit < $ctrl.studies.length">
+        <a class="waves-effect waves-light btn right blue-grey darken-3" ng-click="$ctrl.loadMorePortfolio()" ng-if="$ctrl.portfoliolimit < $ctrl.portfolios.length">
             <i class="material-icons right">library_add</i>Voir Plus</a>
     </div>
-</div>
 </div>
