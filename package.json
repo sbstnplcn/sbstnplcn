@@ -2,20 +2,25 @@
   "name": "sbstnplcn",
   "version": "1.0.0",
   "description": "Resume",
-  "main": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server",
-    "dev": "brunch watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sbstnplcn/sbstnplcn.git"
   },
-  "author": "Sebastien Palacin",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sbstnplcn/sbstnplcn/issues"
   },
-  "homepage": "https://github.com/sbstnplcn/sbstnplcn#readme"
+  "homepage": "https://github.com/sbstnplcn/sbstnplcn#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0"
+  }
 }

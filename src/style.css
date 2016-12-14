@@ -206,3 +206,6 @@ i.medium {
 .ng-leave.ng-leave-active {
     opacity: 0;
 }
+.nopad{
+  padding: 0 !important;
+}
