@@ -1,8 +1,44 @@
 [{
     "exps": [{
+        "title": "Demooz",
+        "status": "Product Manager & Développeur Web JS Full-Stack (MEAN) Junior",
+        "period": "Avril 2017 - Aujourd'hui",
+        "city": "Toulouse",
+        "contents": {
+            "skills": [
+                "Product Manager :",
+                "- Réalisation de Mockups/WireFrames",
+                "- Rédaction spécifications et cahier des charges pour les features",
+                "- Analyse des données avec MixPanel",
+                "- Framework AARRR",
+                "Web Developer JS : ",
+                "- MEAN Stack",
+                "- EJS, Sass, Gulp, Mocha",
+                "- Git",
+                "- Méthode Agile Scrum avec suite Atlassian"
+            ]
+        },
+        "keywords": {
+            "chips": ["Start-Up","#Mean-Stack", "#JS", "#AngularJS", "#Node.js", "#Express.js", "#MongoDB"]
+        }
+    },{
+        "title": "SII",
+        "status": "Développeur Web Junior",
+        "period": "Février 2017 - Mars 2017",
+        "city": "Toulouse",
+        "contents": {
+            "skills": [
+                "En mission chez Airbus Defence & Space",
+                "Debug & improve app RCP"
+            ]
+        },
+        "keywords": {
+            "chips": ["#Java", "#Springboot", "#EclipseRCP", "#Atlasian"]
+        }
+    },{
         "title": "Wild Code School",
         "status": "Apprenti Développeur Web JS Full-Stack (MEAN)",
-        "period": "Septembre 2016 - Aujourd'hui",
+        "period": "Septembre 2016 - Février 2017",
         "city": "Bordeaux",
         "contents": {
             "skills": [
@@ -65,10 +101,10 @@
 }, {
     "studies": [{
         "title": "Wild Code School",
-        "status": "Apprenti Développeur Web JS Full-Stack (MEAN)",
-        "period": "Septembre 2016 - Aujourd'hui",
+        "status": "Titre d'État de Développeur Logiciel (niveau III)",
+        "period": "Septembre 2016 - Février 2017",
         "city": "Bordeaux",
-        "contents": "Préparation titre d’Etat de Développeur logiciel. École  labellisée Grande Ecole du Numérique et est lauréate du Programme Investissements d’Avenir \"Culture de l'entrepreneuriat et de l'innovation\"",
+        "contents": "Validation du titre d’Etat de Développeur logiciel. École labellisée Grande Ecole du Numérique et est lauréate du Programme Investissements d’Avenir \"Culture de l'entrepreneuriat et de l'innovation\"",
         "keywords": {
             "chips": ["#Mean-Stack", "#JS", "#AngularJS", "#Node.js", "#Express.js", "#MongoDB"]
         }
